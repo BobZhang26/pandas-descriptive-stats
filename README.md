@@ -1,4 +1,4 @@
-[![Python Application Test with Github Actions](https://github.com/BobZhang26/Bob_PythonTemplate1/actions/workflows/cicd.yml/badge.svg)](https://github.com/BobZhang26/Bob_PythonTemplate1/actions/workflows/cicd.yml)
+[![CICD](https://github.com/BobZhang26/pandas-descriptive-stats/actions/workflows/cicd.yml/badge.svg)](https://github.com/BobZhang26/pandas-descriptive-stats/actions/workflows/cicd.yml)
 
 # Descriptive Statistics Project
 
@@ -13,6 +13,8 @@ This project demonstrates the calculation of basic descriptive statistics (minim
 1. Install required dependencies.
 2. Run `main.py` to see results.
 3. Use `test_main.py` to run tests.
+
+[!Alt Text]()
 
 
 
