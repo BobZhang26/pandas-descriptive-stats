@@ -1,4 +1,4 @@
-[![CICD](https://github.com/BobZhang26/pandas-descriptive-stats/actions/workflows/cicd.yml/badge.svg)](https://github.com/BobZhang26/pandas-descriptive-stats/actions/workflows/cicd.yml)
+[![CICD](https://github.com/BobZhang26/pandas-descriptive-stats/actions/workflows/cicd.yml/badge.svg?branch=main)](https://github.com/BobZhang26/pandas-descriptive-stats/actions/workflows/cicd.yml)
 
 # Descriptive Statistics Project
 
