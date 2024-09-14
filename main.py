@@ -4,22 +4,13 @@ Main cli or app entry point
 
 import pandas as pd
 import matplotlib.pyplot as plt
+from mylib import plotScatter
 
 # define a function to provide descriptive statistics of a dataset
 
 
 def desripStats(dataframe):
     return dataframe.describe()
-
-
-def plotScatter(df):
-    # plot a scatter graph
-    plt.scatter(df["wt"], df["mpg"])
-    plt.xlabel("Weight, lbs")
-    plt.ylabel("Miles per Gallon, miles")
-    plt.title("Miles per gallon changes with automible weight")
-    plt.show()
-    return
 
 
 def findMin(data):
@@ -66,3 +57,11 @@ if __name__ == "__main__":
     print("mean of 'mpg': ", mean_mpg)
 
     print(desripStats(data))
+    # ensure that the data contains 'wt' and 'mpg' columns
+    if "wt" in data.columns and "mpg" in data.columns:
+        plotScatter(data["wt"], data["mpg"])
+        plt.show()  # 添加这一行来显示图表
+        # save the plot
+        # plt.savefig("scatter.png")
+    else:
+        print("Data does not contain 'wt' or 'mpg' columns")
