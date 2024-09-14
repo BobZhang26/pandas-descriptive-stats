@@ -14,7 +14,7 @@ This project demonstrates the calculation of basic descriptive statistics (minim
 2. Run `main.py` to see results.
 3. Use `test_main.py` to run tests.
 
-[!Alt Text]()
+![Alt Text](scatter.png)
 
 
 
